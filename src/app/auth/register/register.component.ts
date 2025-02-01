@@ -13,9 +13,10 @@ import { iUser } from '../../interfaces/i-user';
 import { AuthService } from '../auth.service';
 
 @Component({
-  selector: 'app-register',
-  templateUrl: './register.component.html',
-  styleUrl: './register.component.scss',
+    selector: 'app-register',
+    templateUrl: './register.component.html',
+    styleUrl: './register.component.scss',
+    standalone: false
 })
 export class RegisterComponent {
   validateForm: FormGroup<{
